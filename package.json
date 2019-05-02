@@ -1,0 +1,26 @@
+{
+  "name": "take-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "js-sha256": "^0.9.0",
+    "node-rsa": "^1.0.5",
+    "request-promise": "^4.2.4",
+    "rsa-key": "0.0.6",
+    "superagent": "^5.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
